@@ -15,7 +15,10 @@
         android:scrollIndicators="bottom|right"
         android:visibility="visible"
         tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="171dp" />
+        tools:layout_editor_absoluteY="171dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
 
     <Button
         android:id="@+id/BT_Limpiar"
@@ -25,7 +28,10 @@
         android:text="Borrar Mensaje"
         android:visibility="invisible"
         tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="44dp" />
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_alignTop="@+id/BT_Saludar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp" />
 
     <Button
         android:id="@+id/BT_Saludar"
@@ -35,6 +41,10 @@
         android:text="Saludar al Mundo"
         android:visibility="visible"
         tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="44dp" />
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/TV_mostrarSaludo" />
+
 </RelativeLayout>
 
